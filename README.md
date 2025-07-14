@@ -62,8 +62,7 @@ Durante a construção deste projeto, pratiquei e aprofundei os seguintes concei
 - [DevChallenges.io](https://www.devchallenges.io/)
 - [W3Schools - Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 - [CSS Tricks - Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Google Fonts](https://fonts.google.com/) (opcional para fontes mais sofisticadas)
-
+- [Google Fonts](https://fonts.google.com/)
 ---
 
 ## 🛠️ Construído com
@@ -107,9 +106,6 @@ Durante a construção deste projeto, pratiquei e aprofundei os seguintes concei
 ## Features
 este aplicativo/site foi criado como uma submissão a um desafio [DevChallenges](https://devchallenges.io/profile/eddddaec-3189-454a-a340-c2f3059f775e).
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 ## Author
 - GitHub [@GeilsonFreire](https://github.com/geilsonfreire)
