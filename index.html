@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Página de perguntas frequentes (FAQ) com respostas claras, acessíveis e responsivas. Criado com HTML e CSS puros como desafio do devChallenges.io." />
+
     <link
       rel="icon"
       href="resources/favicon.ico"
@@ -93,14 +95,14 @@
       }
 
       a {
-        color: #3b82f6;
+        color: #1d4ed8; /* cor com contraste alto */
         text-decoration: none;
       }
 
       a:hover,
       a:focus {
         text-decoration: underline;
-        outline: 2px solid #3b82f6;
+        outline: 2px solid #1d4ed8;
         outline-offset: 2px;
       }
 
@@ -120,14 +122,13 @@
 
       .author-info a {
         text-decoration: none;
-        color: #3b82f6;
+        color: #1d4ed8;
       }
 
       .author-info a:hover {
         text-decoration: underline;
       }
 
-      /* Mobile - até 640px */
       @media (max-width: 640px) {
         .container {
           padding: 1rem;
@@ -146,7 +147,6 @@
         }
       }
 
-      /* Tablet - até 1024px */
       @media (min-width: 641px) and (max-width: 1024px) {
         .container {
           padding: 2rem;
@@ -166,7 +166,6 @@
         }
       }
 
-      /* Desktop - ≥1280px */
       @media (min-width: 1280px) {
         main {
           max-width: 800px;
@@ -188,7 +187,7 @@
       <h1>Frequently Asked Questions</h1>
       <p>Browse through the most frequently asked questions</p>
     </header>
-    
+
     <div class="container">
       <main>
         <section class="faq">
@@ -196,16 +195,15 @@
             <h2>How can I track my order?</h2>
             <p>You can track your order using the following steps:</p>
             <ol>
-              <li>Go to the Order <a href="#">Tracking page</a>.</li>
-              <li>Enter your order number and email address.</li>
               <li>
-                Click on the Track Order button to view the current status of
-                your shipment.
+                Go to the Order <a href="#" title="Track your order" aria-label="Track your order">Tracking page</a>.
               </li>
+              <li>Enter your order number and email address.</li>
+              <li>Click on the Track Order button to view the current status of your shipment.</li>
             </ol>
             <p>
               If you encounter any issues, please visit our
-              <a href="#">Help Center</a>.
+              <a href="#" title="Help Center" aria-label="Help Center">Help Center</a>.
             </p>
           </article>
 
@@ -213,27 +211,15 @@
 
           <article class="faq-item">
             <h2>What is your return policy?</h2>
-            <p>
-              We offer a 30-day return policy on most items. Here are some key
-              points:
-            </p>
+            <p>We offer a 30-day return policy on most items. Here are some key points:</p>
             <ul>
-              <li>
-                <strong>Items must be in original condition:</strong> Unworn,
-                unused, and unwashed.
-              </li>
-              <li>
-                <strong>Include original packaging and tags:</strong> All items
-                should be returned with their original packaging and tags.
-              </li>
-              <li>
-                <strong>Proof of purchase:</strong> A receipt or proof of
-                purchase is required.
-              </li>
+              <li><strong>Items must be in original condition:</strong> Unworn, unused, and unwashed.</li>
+              <li><strong>Include original packaging and tags:</strong> All items should be returned with their original packaging and tags.</li>
+              <li><strong>Proof of purchase:</strong> A receipt or proof of purchase is required.</li>
             </ul>
             <p>
               For more detailed information, read our full
-              <a href="#">Return Policy</a>.
+              <a href="#" title="Return Policy" aria-label="Return Policy">Return Policy</a>.
             </p>
           </article>
         </section>
@@ -241,10 +227,11 @@
     </div>
 
     <div class="author-info">
-      Coded by <a href="#">Geilson Freire</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+      Coded by
+      <a href="https://github.com/geilsonfreire" target="_blank" rel="noopener noreferrer">Geilson Freire</a>
+      | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank" rel="noopener noreferrer">devChallenges.io</a>.
     </div>
   </body>
 </html>
+
