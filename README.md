@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://github.com/geilsonfreire}">
+    <a href="{https://geilsonfreire.github.io/Desafio_FAQ/}">
       Demo
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@ Este projeto simula uma seção de perguntas frequentes (FAQ) com foco em acessi
 
 <img src="./thumbnail.jpg" alt="thumbnail" />
 
-[🔗 Acesse o projeto online](https://seulink.vercel.app)
+[🔗 Acesse o projeto online](https://geilsonfreire.github.io/Desafio_FAQ/)
 
 ---
 
